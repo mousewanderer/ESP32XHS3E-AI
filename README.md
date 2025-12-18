@@ -68,6 +68,5 @@ void setup() {
 void loop() {
   // Nothing here, just display static text
 }
-``
 
 
