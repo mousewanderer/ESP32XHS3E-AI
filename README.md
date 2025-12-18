@@ -5,17 +5,14 @@ This is what it looks like
 
 # FLASH METHOD
 Follow the tutotial how to flash the ESP32-S3 
-
-https://jiayi0111.github.io/ESP32_S3-C3-extension-board-/Setting-up-Development-Enviroment/UsingFlashDownloadTooltoFlash.html
-https://youtu.be/ekStdti3eaQ?si=GDz-XLnRs952rwns
-
-https://xiaozhi.dev/en/docs/usage/firmware-download/
+- https://jiayi0111.github.io/ESP32_S3-C3-extension-board-/Setting-up-Development-Enviroment/UsingFlashDownloadTooltoFlash.html
+- https://youtu.be/ekStdti3eaQ?si=GDz-XLnRs952rwns
+- https://xiaozhi.dev/en/docs/usage/firmware-download/
 
 
-chinese resource file to access bin files for the flashing procedures
-
-https://ai.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS?fbclid
-https://ai.feishu.cn/wiki/W14Kw1s1uieoKjkP8N0c1VVvn8d
+# chinese resource file to access bin files for the flashing procedures
+- https://ai.feishu.cn/wiki/Zpz4wXBtdimBrLk25WdcXzxcnNS?fbclid
+- https://ai.feishu.cn/wiki/W14Kw1s1uieoKjkP8N0c1VVvn8d
 
 
 # Arduino IDE method
@@ -68,5 +65,8 @@ void setup() {
 void loop() {
   // Nothing here, just display static text
 }
+
+
+
 
 
