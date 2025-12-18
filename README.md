@@ -30,6 +30,10 @@ and the SDA is pin 41 and the SCL is pin 42.
 
 commonly the address is 0x3C you can check it by using an address checker for I2C
 the just upload the code
+
+## CODE sample
+**sketch_file*
+```
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
@@ -64,6 +68,6 @@ void setup() {
 void loop() {
   // Nothing here, just display static text
 }
-
+``
 
 
