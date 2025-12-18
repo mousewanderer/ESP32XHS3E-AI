@@ -17,16 +17,14 @@ Follow the tutotial how to flash the ESP32-S3
 
 # Arduino IDE method
 
-install ExpressIF from the Libraries then select ESP-S3-BOX
-then make sure you have this for the OLED libraries
-#include <Wire.h>
-#include <Adafruit_GFX.h>
-#include <Adafruit_SSD1306.h>
+install ExpressIF from the Libraries then select ESP-S3-BOX then make sure you have this for the OLED libraries
+- <Wire.h>
+- <Adafruit_GFX.h>
+-  <Adafruit_SSD1306.h>
 
 and the SDA is pin 41 and the SCL is pin 42.
 
-commonly the address is 0x3C you can check it by using an address checker for I2C
-the just upload the code
+commonly the address is 0x3C you can check it by using an address checker for I2C then just upload the code
 
 ## CODE sample
 **sketch_file*
