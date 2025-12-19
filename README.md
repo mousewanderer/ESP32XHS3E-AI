@@ -64,8 +64,10 @@ void loop() {
   // Nothing here, just display static text
 }
 ```
-MORE UPDATES
-
+# MORE UPDATES
+Found english translation 
+- https://github.com/78/xiaozhi-esp32
+- click this
 
 
 
