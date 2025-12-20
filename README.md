@@ -69,5 +69,37 @@ Found english translation
 - https://github.com/78/xiaozhi-esp32
 - click this
 
+Working update
+
+v2.0.5_bread-compact-wifi-128x64 select this then use the flasher 
+from the file called merge bin.
+
+you will see an it will run and do the testing in which if you press the button of the boot it will just record and repeat
+so to get the network long press both of them to make it receieveable iand it will freeze then shows IP address
+
+but to access that you will need to connect the esp32 device using the wifi network on your phone (THE ESP32 wil make its own hotspot) so you 
+wiil nee to connect the hotspot
+
+after that add your wifi network details( does not work on %G network) enter the 4G one
+- wifi name
+- wifi password
+
+Then after that you must login in this website 
+- https://xiaozhi.me/
+
+login using gmail etc.
+
+then at that moment you w
+ill see 6 digit numbers use those number to create the agent
+<img width="700" height="250" alt="Screenshot 2025-12-20 135320" src="https://github.com/user-attachments/assets/41fe8fc6-4aa5-4db8-b82c-9b288479e6f8" />
+<img width="500" height="250" alt="Screenshot 2025-12-20 135316" src="https://github.com/user-attachments/assets/3608043b-a7cc-4576-b490-87e77e806d3d" />
+then don't foegt to translate in english since it is chinese in default 
+
+customization of if you want it to speak english
+<img width="607" height="362" alt="Screenshot 2025-12-20 135454" src="https://github.com/user-attachments/assets/a03a16c1-8cd1-470d-bff3-f6e8cc4c248f" />
+click here 
+<img width="1064" height="495" alt="Screenshot 2025-12-20 135530" src="https://github.com/user-attachments/assets/72456c31-e562-4bfc-bbfb-8f0a07ae8e96" />
+change the dialogue into english and then your done (explore if you want)
+
 
 
