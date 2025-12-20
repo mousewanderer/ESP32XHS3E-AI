@@ -64,43 +64,107 @@ void loop() {
   // Nothing here, just display static text
 }
 ```
-# MORE UPDATES
-Found english translation 
-- https://github.com/78/xiaozhi-esp32
-- click this
+# XiaoZhi ESP32 – English Setup Guide
 
-Working update
+This guide explains how to flash, configure, and use **XiaoZhi ESP32** with English support.
 
-v2.0.5_bread-compact-wifi-128x64 select this then use the flasher 
-from the file called merge bin.
+---
 
-you will see an it will run and do the testing in which if you press the button of the boot it will just record and repeat
-so to get the network long press both of them to make it receieveable iand it will freeze then shows IP address
+## 🔗 Project Link (English Translation)
 
-but to access that you will need to connect the esp32 device using the wifi network on your phone (THE ESP32 wil make its own hotspot) so you 
-wiil nee to connect the hotspot
+Official repository with English translation:  
+👉 https://github.com/78/xiaozhi-esp32
 
-after that add your wifi network details( does not work on %G network) enter the 4G one
-- wifi name
-- wifi password
+---
 
-Then after that you must login in this website 
-- https://xiaozhi.me/
+## ✅ Working Firmware Version
 
-login using gmail etc.
-
-then at that moment you will see 6 digit numbers use those number to create the agent
-<img width="700" height="250" alt="Screenshot 2025-12-20 135320" src="https://github.com/user-attachments/assets/41fe8fc6-4aa5-4db8-b82c-9b288479e6f8" />
-<img width="500" height="250" alt="Screenshot 2025-12-20 135316" src="https://github.com/user-attachments/assets/3608043b-a7cc-4576-b490-87e77e806d3d" />
+Use the following firmware:
 
 
-then don't foegt to translate in english since it is chinese in default 
+Flash it using the **flasher tool** found inside the **merge_bin** folder.
 
-customization of if you want it to speak english
-<img width="607" height="362" alt="Screenshot 2025-12-20 135454" src="https://github.com/user-attachments/assets/a03a16c1-8cd1-470d-bff3-f6e8cc4c248f" />
-click here 
-<img width="1064" height="495" alt="Screenshot 2025-12-20 135530" src="https://github.com/user-attachments/assets/72456c31-e562-4bfc-bbfb-8f0a07ae8e96" />
-change the dialogue into english and then your done (explore if you want)
+---
 
+## 🔥 Flashing the Firmware
 
+1. Open the flasher tool.
+2. Select the firmware:
 
+3. Flash the ESP32.
+4. After flashing, the device will automatically start testing.
+
+---
+
+## 🎤 Button Functions
+
+- **Short press BOOT button**  
+→ Records audio and repeats it.
+
+- **Long press BOTH buttons**  
+→ Enters **Wi-Fi pairing mode**  
+→ Device freezes briefly  
+→ Then displays an **IP address**
+
+---
+
+## 📡 Wi-Fi Configuration
+
+The ESP32 creates its **own Wi-Fi hotspot**.
+
+### Steps:
+1. On your phone, connect to the **ESP32 hotspot**.
+2. Open the setup page.
+3. Enter your Wi-Fi details:
+- **Wi-Fi Name (SSID)**
+- **Wi-Fi Password**
+
+⚠️ **Important Notes:**
+- ❌ **5G Wi-Fi is NOT supported**
+- ✅ Use **2.4G / 4G Wi-Fi only**
+
+---
+
+## 🌐 Account & Agent Setup
+
+1. Go to:  
+👉 https://xiaozhi.me/
+2. Log in using **Gmail** or another supported method.
+3. You will see a **6-digit code**.
+4. Use this code to **create an agent**.
+
+### Reference Screenshots
+
+<img width="700" height="250" alt="Agent Code" src="https://github.com/user-attachments/assets/41fe8fc6-4aa5-4db8-b82c-9b288479e6f8" />
+
+<img width="500" height="250" alt="Agent Setup" src="https://github.com/user-attachments/assets/3608043b-a7cc-4576-b490-87e77e806d3d" />
+
+---
+
+## 🌍 Change Language to English
+
+By default, the interface and dialogue are in **Chinese**.
+
+### To switch to English:
+1. Open the **Customization / Settings** page.
+2. Change the **dialogue language** to **English**.
+3. Save the settings.
+
+### Screenshots
+
+<img width="607" height="362" alt="Language Settings" src="https://github.com/user-attachments/assets/a03a16c1-8cd1-470d-bff3-f6e8cc4c248f" />
+
+<img width="1064" height="495" alt="Dialogue Settings" src="https://github.com/user-attachments/assets/72456c31-e562-4bfc-bbfb-8f0a07ae8e96" />
+
+✅ The device will now speak **English**.  
+You can explore other customization options if you want.
+
+---
+
+## 📌 Notes
+
+- Ensure a stable power supply for the ESP32
+- Always use **2.4G Wi-Fi**
+- If the device freezes, reboot and re-enter pairing mode
+
+---
