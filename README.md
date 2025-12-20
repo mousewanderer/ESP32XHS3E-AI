@@ -89,10 +89,11 @@ Then after that you must login in this website
 
 login using gmail etc.
 
-then at that moment you w
-ill see 6 digit numbers use those number to create the agent
+then at that moment you will see 6 digit numbers use those number to create the agent
 <img width="700" height="250" alt="Screenshot 2025-12-20 135320" src="https://github.com/user-attachments/assets/41fe8fc6-4aa5-4db8-b82c-9b288479e6f8" />
 <img width="500" height="250" alt="Screenshot 2025-12-20 135316" src="https://github.com/user-attachments/assets/3608043b-a7cc-4576-b490-87e77e806d3d" />
+
+
 then don't foegt to translate in english since it is chinese in default 
 
 customization of if you want it to speak english
